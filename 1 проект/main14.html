@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <!-- <Title>=</Title> -->
+        <link rel="stylesheet" href="main14.css">
+        <link rel="stylesheet" href="bootstrap.min14.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bootstrap стили</title>
+    </head>
+    <body>
+        <form class="m-4 main-form">
+            <div class="form-group">
+                <label for="username">Имя</label> 
+                <input type="text" id="username" class="form-control form-control-plaintext" value="John">
+                <small class="form-text text-muted">Подсказка для поля выше</small> 
+            </div>
+            <div class="form-floating">
+                <input type="password" id="pass" placeholder="Пароль" class="form-control is-invalid">
+                <label for="password">Пароль</label> 
+            </div>
+
+            <label for="selector">Выборка из списка</label>
+            <select id="selector" class="form-control-lg">
+                <option value="1">Option 1</option>
+                <option value="1">Option 2</option>
+                <option value="1">Option 3</option>
+            </select>
+
+            <div class="form-group">
+                <input type="radio" class="form-check-input" id="male" name="male">
+                <label for="male">Мужской</label>
+
+                <input type="radio" class="form-check-input" id="female" name="male">
+                <label for="female">Женский</label>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="rights" class="form-check-input">
+                <label for="rights">Нажмите на галочку</label> 
+            </div>
+
+            <div class="form-switch">
+                <input type="checkbox" id="rights-2" class="form-check-input">
+                <label for="rights-2">Нажмите на галочку</label> 
+            </div><br>
+
+            <div class="input-group">
+                <div class="input-group-text">
+                    <input type="checkbox" class="form-check-input">
+                    <label>Нажмите</label>
+                </div>
+                <input type="email" class="form-control" placeholder="email">
+                <button type="button" class="btn bbtn-success btn-dark">Готово</button>
+            </div>
+             <br>
+
+            <button type="button" class="btn btn-success">Кнопка</button>
+        </form>
+    </body>
+</html>

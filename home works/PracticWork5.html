@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <Title>Возможности языка CSS</Title>
+        <link rel="stylesheet" href="PracticWork8.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CSS Grid</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            .grid-conteiner {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 100px);
+                gap: 10px;
+            }
+
+            .item1 {
+                background-color: #3498db;
+                color: white;
+            }
+
+            .item2 {
+                background-color: #2ecc71;
+                color: white;
+            }
+
+            .item3 {
+                background-color: #e74c3c;
+                color: white;
+            }
+
+            .item4 {
+                background-color: #f39c12;
+                color: white;
+            }
+
+            .item5 {
+                background-color: #9b59b6;
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+    <div class="grid-conteiner">
+        <div class="item1">item 1</div>
+        <div class="item2">item 2</div>
+        <div class="item3">item 3</div>
+        <div class="item4">item 4</div>
+        <div class="item5">item 5</div>
+    </div>
+    </body>
+</html>
